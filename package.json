@@ -1,10 +1,13 @@
 {
+  "homepage": "https://dixitambaliya.github.io/Ecommerce/",
   "name": "practice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predploy":"npm run build",
+    "deploy":"gh-pages",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
